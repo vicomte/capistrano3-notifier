@@ -1,0 +1,11 @@
+Deployer:     <%= user_name %>
+Application:  <%= application %>
+Branch:       <%= branch %>
+Environment:  <%= stage %>
+Time:         <%= now.strftime("%m/%d/%Y") %> at <%= now.strftime("%H:%M %Z") %>
+
+Compare:
+<%= git_compare_prefix %>/<%= github_range %>
+
+Commits:
+<%= git_log %>
