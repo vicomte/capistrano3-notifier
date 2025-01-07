@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Capistrano::Notifier::VERSION
 
-  gem.add_dependency 'actionmailer', '~> 4.0'
+  gem.add_dependency 'actionmailer', '~> 6.1.7.9'
   gem.add_dependency 'capistrano', '~> 3.0'
 
   gem.add_development_dependency 'rake'
